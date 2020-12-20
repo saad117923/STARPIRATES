@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* style new tags to work as normal tags in old browsers */
+	header, footer, nav, main, article, section, aside, figure, figcaption, details, summary, mark, time {
+		display: block;
+	}
+
+.header1{
+  font-style: Courier, Monospace;
+
+}
+
+
+	html {
+		height: 100%;
+		background-image:url("https://media.giphy.com/media/3ohzB055PO8JQ5PFwA/giphy.gif" )  ;
+    background-size: cover;
+
+		font-family: helvetica, arial, 'sans serif';
+		font-size:20px;
+		color:#DDD;
+	}
+	body {
+		width:70%;
+		min-width: 640px;
+		min-height: 100%;
+
+		margin: 0 auto; /* center the body */
+		padding: 0px 0px;
+		border: 1px solid black;
+		border-width: 0 1px;
+
+		background: black;
+
+		-moz-box-shadow: 0px 0px 20px 20px #999;
+		-webkit-box-shadow: 0px 0px 20px 20px #999;
+
+	}
+	#logo {
+		border:0px;
+		width:100%;
+		max-width:700px;
+    max-height: 700px;
+	}
+	header {
+		text-align:center;
+		width:100%;
+	}
+	header h1 {
+		display:none;
+	}
+	nav {
+		text-align:center;
+		width:100%;
+		margin:30px 0px 0px 0px;
+		padding: 10px 0px;
+		background-color:#F8DB6E;
+	}
+	nav h1 {
+		display:none;
+	}
+	nav a, footer a {
+		color:black;
+		text-decoration:none;
+		text-transform:uppercase;
+		padding:10px;
+		margin:0px 10px;
+	}
+
+	footer a {
+		text-transform:none;
+	}
+
+	nav a:hover, footer a:hover {
+		color:#ccc;
+		background-color:yellow;
+	}
+	time {
+		color:#447777;
+		font-size:16px;
+		font-weight:bold;
+		text-transform:uppercase;
+		margin: 0px 6px 0px 0px;
+	}
+	article, #about, #help {
+		padding:20px;
+		color:#333;
+		background-color:#bf5656;
+	}
+	article h2 {
+		font-size:24px;
+	}
+	article a {
+		color:black;
+		text-decoration:none;
+		text-transform:uppercase;
+		padding:2px;
+	}
+
+	article a:hover {
+		background-color:yellow;
+	}
+	figure {
+		padding:0px 10px;
+	}
+	figure img {
+		width:100%;
+		max-width:400px;
+		-moz-box-shadow: 5px 5px 14px #333;
+		-webkit-box-shadow: 5px 5px 14px #333;
+		box-shadow: 5px 5px 14px #333; /* right, bottom, spread, color */
+		margin: 0px 0px 10px 0px;
+	}
+	figcaption {
+		display:none;
+	}
+
+	aside {
+		padding:20px;
+		color:#333;
+		background-color:#FFF;
+	}
+	footer {
+		text-align:center;
+		padding:1px;
+	}

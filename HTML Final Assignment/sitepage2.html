@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Charcter and Ship Customization</title>
+    <link rel="stylesheet" href="/HTML Final Assignment/css/styles.css">
+  </head>
+  <body>
+
+
+<h1>Character and Ship Builds</h1>
+
+
+<form action="results.html" method="GET" enctype="multipart/form-data">
+    <div>
+      <label for="name">UserName</label>
+      <input type="text" name="name" id="name" required>
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="1" max="200" step="5">
+  </div>
+  <div>
+    <label for="date">Birthdate</label>
+    <input type="date" name="date" id="date" >
+  </div>
+  <br>
+  <div>
+    Ship type
+    <div>
+      <label for="speed">BRIG ship:fast and maneuverable used as both naval warships and merchant vessels. When used as small warships, they carry about 10 to 18 guns. Due to their speed and maneuverability they are an excellent all around ship.</label>
+      <input type="checkbox" name="Spp" id="WARSHIP">
+    </div>
+    <br>
+    <div>
+      <label for="apple">FRIGATE ship: Second in size to the Ship-of-the-Line (Man-O-War). Have anywhere from 24 to 38 guns, and are faster than the ship-of-the-lines. Frigates are used for escort purposes, and sometimes to hunt pirates. Only a few pirates were ever in command of a frigate as most would flee at the sight of one. Stronger then a BRIG but harder to maintain</label>
+      <input type="checkbox" name="BattleShip" id="apple">
+    </div>
+    <br>
+  </div>
+  <div class="ship of the line">
+    <label for="WARSHIP">SHIP OF THE LINE WARSHIP(MAN-O-WAR):carry awesome firepower with an average of 60 guns. Over the course of time, they developed into larger and heavier beasts. They were designed to be large enough for use in line of battle tactics, hence there name Man-O-War. Strongest ship in the game but has reduced speed and intensive maintenance and repairs</label>
+    <input type="checkbox" name="Spp" id="WARSHIP">
+
+  </div>
+  <br>
+  <div>
+   Character Type
+    <div>
+      <label for="alien">Alien</label>
+      <input type="radio" name="alien" id="al" value="alien">
+    </div>
+    <div>
+      <label for="human">Human</label>
+      <input type="radio" name="human" id="hum" value="human">
+    </div>
+  </div>
+  <div>
+    <label for="Starting perks">Starting perks</label>
+    <select name="eyeColor" id="eyeColor" multiple>
+      <option value="Green">+50 Character Health</option>
+
+      <option label="+50 Character Strength" value="+50 Character Strength">+50 Charcter Strength</option>
+    </select>
+  </div>
+  <div>
+    <label for="bio">Bio</label>
+    <textarea id="bio" name="bio"></textarea>
+  </div>
+  <input type="hidden" name="hidden" value="hi">
+  <div>
+    <label for="file">File</label>
+    <input id="file" type="file" name="file">
+  </div>
+  <div>
+    <label for="phone">Phone</label>
+    <input type="tel" name="phone" id="phone">
+  </div>
+  <div>
+    <label for="url">URL</label>
+    <input type="url" name="url" id="url">
+  </div>
+  <div>
+    <label for="color">Color</label>
+    <input type="color" name="color" id="color">
+  </div>
+  <div>
+    <label>
+      Password
+      <input type="password" name="password" required>
+    </label>
+  </div>
+  <button type="reset">Reset</button>
+  <button type="submit">Submit</button>
+</form>
+
+
+
+
+
+  </body>
+</html>
